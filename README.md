@@ -1,4 +1,4 @@
-# Analysis of Food Store Accessibility in Erie County, New York 
+# Analysis of Food Store Accessibility in Erie County, NY
 
 As an Erie County native, I have heard anecdotal relics of food deserts within the county, especially in the City of Buffalo. In this project, I have performed analysis on the available food stores, income, and population within the municipalities located in Erie County to explore trends based on location in the county and access to quality food stores.
 
