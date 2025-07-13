@@ -1,10 +1,10 @@
 # Analysis of Food Store Accessibility in Erie County, NY
 
-As an Erie County native, I have heard anecdotal relics of food deserts within the county, especially in the City of Buffalo. In this project, I have performed analysis on the available food stores, income, and population within the municipalities located in Erie County to explore trends based on location in the county and access to quality food stores.
+As an Erie County native, I have heard anecdotal reports of food deserts within the county, especially in the City of Buffalo. In this project, I have performed analysis on the available food stores, income, and population within the municipalities located in Erie County to explore trends based on location in the county and access to quality food stores.
 
 Skills: 
 
-Data preprocessing, Database Engineering with SQLite, Exploratory Data Analysis, Decision Trees, Dashboard Creation with Dash
+Data Preprocessing, Database Engineering, Exploratory Data Analysis, Decision Trees, Dashboard Development
 
 Data:
 - Individuals, ZIP Code Data from the Department of the Treasury ([link](https://catalog.data.gov/dataset/zip-code-data ))
@@ -12,20 +12,20 @@ Data:
 
 Methodology:
 - Preprocessed and cleaned both datasets
-- Built a database to store the clean data
-- Analyzed trends using visualizations and statistical modeling
-- Used a decision tree model to predict location
-- Built a dashboard to present findings in an interactive way
+- Built a structured SQLite database to store and manage cleaned data
+- Conducted exploratory analysis using visualizations and statistical techniques
+- Applied a decision tree classifier to explore predictive trends by location
+- Created an interactive dashboard to present findings
 
 Tools & Technologies:
-- Programming Language: Python, SQLite
+- Programming Language: Python, SQL
 - Libraries: pandas, sqlite3, seaborn, matplotlib, sklearn, dash
 - Software: Jupyter Notebook
 
 Results & Evaluation:
 
-My results focus on the differences between the City of Buffalo and the surrounding Suburbs in terms of income and the quality of food stores located in that area. When looking at the higher income brackets located in the Suburbs, the quality of food stores greatly increases. The zipcodes located within the City of Buffalo generally saw lower income and many more low-quality food stores, such as convenience stores or gas marts. Future analysis completed in the area would be best if opened into a multi-class problem, rather than a binary one. The rural areas on the outskirts of Erie County also face significantly lower incomes and fewer food stores than the more populated and bigger suburbs. 
+The analysis revealed clear differences in income and food store quality between the City of Buffalo and its surrounding suburbs. Higher-income zipcodes in the suburbs tended to have greater access to high-quality food stores, while zipcodes within Buffalo saw lower incomes and a higher concentration of lower-quality food stores, such as gas marts and convenience stores. Rural areas at the edges of Erie County also showed lower income levels and limited access to food stores. Based on these findings, future work would benefit from framing the classification task as a multi-class problem rather than binary, to better capture the nuanced differences between urban, suburban, and rural zones.
 
 Challenges & Learning:
-- Improved preprocessing skills working with multiple datasets that both needed significant cleaning
-- Gained experience building a dashboard directly inside Jupyter Notebook
+- Strengthened preprocessing skills while working with multiple messy datasets
+- Gained hands-on experience with dashboard creation directly within Jupyter using Dash
